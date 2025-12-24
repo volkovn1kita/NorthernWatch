@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NorthernWatch.Domain\NorthernWatch.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

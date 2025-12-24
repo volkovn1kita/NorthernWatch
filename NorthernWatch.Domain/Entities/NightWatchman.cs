@@ -24,8 +24,24 @@ namespace NorthernWatch.Domain.Entities
         public int Intelligence { get; set; }
 
         [Range(0, 100)]
-        public int Health { get; set; }
+        public int Health { get; private set; } = 100;
         public bool IsDead => Health <= 0;
-        public bool IsAssigned { get; set; }
+        public bool IsAssigned { get; private set; } = false;
+
+        public void HealthChange(int change)
+        {
+            Health = Math.Clamp(Health + change, 0, 100);
+        }
+
+        public void AssignToMission()
+        {
+            IsAssigned = true;
+        }
+
+        public void ReturnFromMission()
+        {
+            IsAssigned = false;
+        }
+
     }
 }
