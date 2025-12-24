@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorthernWatch.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a8322e5e0cc5d16f2b1eb05dd57a04219c04e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4ef178c472722c0af73d89e075fed7ef92712f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("NorthernWatch.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NorthernWatch.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
